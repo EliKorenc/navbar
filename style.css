@@ -1,5 +1,9 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-*, :after, :before { box-sizing: border-box; }
+*,
+:after,
+:before {
+	box-sizing: border-box;
+}
 
 body {
 	font-family: sans-serif;
@@ -24,3 +28,13 @@ a:hover {
 }
 
 /* ---------------------------------------------------- */
+.hlavicka {
+	display: flex;
+	Justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+
+}
